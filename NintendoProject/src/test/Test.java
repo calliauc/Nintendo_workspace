@@ -1,5 +1,7 @@
 package test;
 
+import java.time.LocalDate;
+
 import model.Boutique;
 import model.Client;
 import model.Console;
@@ -9,7 +11,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Console nintendoSwitch = new Console("NintendoSwitch");
+		Console nintendoSwitch = new Console("NintendoSwitch", 300, LocalDate.parse("2015-01-01") );
 	
 
 		Jeu marioKart = new Jeu("MarioKart", nintendoSwitch);
