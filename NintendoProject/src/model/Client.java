@@ -1,9 +1,14 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
 	
 	private String nom;
 	private String prenom;
+	private List<Achat> achats = new ArrayList<Achat>();
+
 	
 	public Client(String nom, String prenom) {
 		this.nom = nom;
