@@ -8,13 +8,14 @@ import model.Achat;
 import model.Boutique;
 import model.Client;
 import model.Console;
+import model.Hybride;
 import model.Jeu;
 
 public class Test {
 
 	public static void main(String[] args) {
 		
-		Console nintendoSwitch = new Console("NintendoSwitch");
+		Console nintendoSwitch = new Hybride("NintendoSwitch", 300, LocalDate.parse("2015-01-01"));
 	
 
 		Jeu marioKart = new Jeu("MarioKart", nintendoSwitch);
