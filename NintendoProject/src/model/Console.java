@@ -20,6 +20,5 @@ public abstract class Console {
 	public String toString() {
 		return "Console [nom=" + nom + "]";
 	}
-	
-	
+
 }
