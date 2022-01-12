@@ -15,6 +15,8 @@ public class Client {
 		this.prenom = prenom;
 	}
 
+
+
 	public String getNom() {
 		return nom;
 	}
@@ -31,9 +33,18 @@ public class Client {
 		this.prenom = prenom;
 	}
 
+	public List<Achat> getAchats() {
+		return achats;
+	}
+
+	public void setAchats(List<Achat> achats) {
+		this.achats = achats;
+	}
+
+	
 	@Override
 	public String toString() {
-		return "Client [nom=" + nom + ", prenom=" + prenom + "]";
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", achats=" + achats + "]";
 	}
 	
 	

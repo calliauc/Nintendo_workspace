@@ -7,7 +7,7 @@ public class Achat {
 	private LocalDate date;
 	private double prix;
 	
-	public Achat(Jeu jeu, LocalDate date, double prix) {
+	public Achat(Jeu jeu, double prix) {
 		super();
 		this.jeu = jeu;
 		this.date = LocalDate.now();
