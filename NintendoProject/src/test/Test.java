@@ -2,6 +2,7 @@ package test;
 
 import model.Console;
 import model.Jeu;
+import model.Client;
 
 public class Test {
 
@@ -9,11 +10,16 @@ public class Test {
 		
 		Console nintendoSwitch = new Console("NintendoSwitch");
 	
+
 		Jeu marioKart = new Jeu("MarioKart", nintendoSwitch);
 		Jeu SmashBros = new Jeu("Super Smash Bros", nintendoSwitch);
 		Jeu pokemonUnite = new Jeu("Pokemon Unite", nintendoSwitch);
 		Jeu fireEmblem3H = new Jeu("Fire Emblem 3 Houses", nintendoSwitch);
 		Jeu xenobaldeChronicle = new Jeu("Xenobalde Chronicle", nintendoSwitch);
+
+
+		Client c1 = new Client("LUIGI", "Mario");
+		Client c2 = new Client("ZELDA", "Link");
 
 
 	}
