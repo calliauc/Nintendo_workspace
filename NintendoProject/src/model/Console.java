@@ -20,6 +20,5 @@ public class Console {
 	public String toString() {
 		return "Console [nom=" + nom + "]";
 	}
-	
-	
+
 }
