@@ -1,8 +1,9 @@
 package test;
 
+import model.Boutique;
+import model.Client;
 import model.Console;
 import model.Jeu;
-import model.Client;
 
 public class Test {
 
@@ -21,7 +22,7 @@ public class Test {
 		Client c1 = new Client("LUIGI", "Mario");
 		Client c2 = new Client("ZELDA", "Link");
 
-
+		Boutique b1 = new Boutique("POKECENTER", "Bourgpalette");
 	}
 
 }
