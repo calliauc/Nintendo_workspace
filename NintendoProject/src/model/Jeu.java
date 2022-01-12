@@ -6,9 +6,18 @@ public class Jeu {
 
 	private String titre;
 	private Console console;
+	private Boutique boutique;
 	
 	
-	
+	public Jeu(String titre, Console console, Boutique boutique) {
+		super();
+		this.titre = titre;
+		this.console = console;
+		this.boutique = boutique;
+	}
+
+
+
 	public Jeu(String titre, Console console) {
 		this.titre = titre;
 		this.console = console;
@@ -36,6 +45,18 @@ public class Jeu {
 
 	public void setConsole(Console console) {
 		this.console = console;
+	}
+
+	
+
+	public Boutique getBoutique() {
+		return boutique;
+	}
+
+
+
+	public void setBoutique(Boutique boutique) {
+		this.boutique = boutique;
 	}
 
 
